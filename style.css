@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body{
+    background-color: black;
+    overflow-x:hidden;
+}
+.container1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+#back {
+    width: 100%;
+    height: 99.2%;
+    pointer-events: none;
+}
+
+#back video {
+    width: 100vw;
+    height: 99.2vh;
+    object-fit: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+.hero {
+    position: absolute;
+    width: 100%;
+    background-color: #00000061;
+    height: 100%;
+}
+
+.imgbox img {
+    height: 35px;
+}
+
+.navbar {
+    position:sticky;
+    top:0;
+    display: flex;
+    color: white;
+    gap: 50px;
+    padding: 15px 10px;
+        
+}
+
+.middlebox {
+    align-items: center;
+}
+
+.middlebox ul {
+    padding-top: 8px;
+    ;
+    list-style: none;
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.endbox button {
+    border: none;
+    background: none;
+    color: white;
+    margin: 4px 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.signup {
+    padding: 4px 5px;
+    border: 2px solid white !important;
+    border-radius: 12px;
+}
+
+#player{
+    border-radius:9px;
+    border:none;
+    padding:5px;
+    color:white;
+    background-color: black;
+    position: absolute;
+    right: 4vw;
+    bottom: 5vw;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+    font-size: 25px;;
+}
+.footerbar {
+    width: 45vw;
+    color: white;
+    position: absolute;
+    left: 22vw;
+    bottom: 3vw;
+}
+
+.footerbar h1{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size:50px;
+    font-family: 'Bebas Neue', sans-serif;
+    position:relative;
+}
+.footerbar *{
+    margin:15px 0;
+}
+.footerbar button{
+    border-radius: 3px;
+    border: 2px solid white;
+    color:white;
+    background:none;
+    padding:7px;
+    font-size:15px;
+}
+.container2{
+    padding:40px 50px;
+    background-color:black;
+    height:10vw;
+    display:flex;
+    gap:35px;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    width: 30vw;
+}
+.content *{
+    margin-bottom:15px;
+}
